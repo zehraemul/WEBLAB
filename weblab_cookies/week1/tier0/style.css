@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+*{margin: 0px;}
+body{
+    background-color: #2C3333;
+    font-family: 'Source Code Pro', monospace;
+}
+#nike_logo{
+    height: 120px;
+    padding-left: 100px;
+    color: #FF6600;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C3333 ;
+    width: 100%;
+    position: fixed;
+}
+
+.icons{
+    padding-right: 70px;
+    display: flex;
+}
+.fa-solid{
+    padding: 20px;
+    font-size: 20px;
+    color: #FF6600 ;
+}
+.row{
+    display: block;
+}
+.col-1{
+    float: left;
+    width: 40%;
+}
+.col-2{
+    float: left;
+    width: 60%;
+}
+.left{
+    margin-top: 150px;
+    margin-left: 100px;
+   
+}
+.showcase{
+    font-size: 55px;
+    padding-top: 50px;
+}
+#first{
+    padding-left: 10px;
+}
+.text{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.price{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.button{
+    padding-top: 20px;
+}
+.btn{
+    font-size: 18px;
+    padding: 20px 50px;
+    background-color: #FF6600;
+    border: 0px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #6f8080;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.right{
+    background-color: #FF6600;
+}
+
+.main_item{
+    display: flex;
+    justify-content: center;
+}
+#x{
+    height: 900px;
+    margin-top:-200px ;
+}
+
+.item{
+    height: 180px;
+   
+}
+.item:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.footer_items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-top: -200px;
+}
+
+.nike_text{
+    padding-left: 650px;
+    margin-top: -490px;
+    font-size: 100px;
+    opacity: 0.2;
+    color: black;
+}
+
+.fa-brands{
+    font-size: 20px;
+    color:#FF6600;
+    padding-left: 10px;
+}
+#backtotop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#backtotop i {
+    color:#114e4e;
+    font-size: 45px;
+    transition: color .6s;
+}
+
+#backtotop i:hover {
+    color:purple;
+}
